@@ -33,4 +33,4 @@ Submit Credentials
     Click Button    id=login-button
 
 Welcome Page Should Be Open
-    Element Should Not Be Visible    id = react-burger-menu-btn
+    Element Should Be Visible    id = react-burger-menu-btn
