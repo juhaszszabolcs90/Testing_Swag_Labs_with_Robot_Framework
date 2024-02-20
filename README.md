@@ -4,6 +4,11 @@
 
 This project uses Robot Framework to automate testing of the Swag Labs website. It currently focuses on testing the login process with different inputs, and there are plans for further development.
 
+## Built With:
+
+* [![Python][Python-image]][Python-url]
+* [![Robot-Framework][Robot Framework-image]][Robot-Framework-url]
+
 ## Requirements:
 To clone and run the project, the following tools and software are needed:
 
@@ -94,3 +99,12 @@ Robot Framework documentation: https://robotframework.org/
 Swag Labs website: https://www.saucedemo.com/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png
+
+[Python]
+[Python-image]:https://www.python.org/static/community_logos/python-logo.png
+[Python-url]:https://www.python.org/
+[Robot-Framework]
+[Robot Framework-image]:https://media.licdn.com/dms/image/D4D12AQHGChwbBL538w/article-cover_image-shrink_600_2000/0/1684425925040?e=2147483647&v=beta&t=NwbUjYLDD0_-jwlF3DI4lg1NIf00D7JiGpiHYzCG8P8
+[Robot-Framework-url]:https://robotframework.org/
