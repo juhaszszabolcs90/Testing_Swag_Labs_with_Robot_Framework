@@ -40,15 +40,38 @@ These files help track changes for learning purposes. Typically, they are not up
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Tests
-There are the following test cases to validate the login process:
+## Roadmap
+Testing:
+- [x] Login with
+    - [x] valid credentials
+    - [x] invalid password
+    - [x] invalid username and password
+    - [x] empty credentials
 
-- Test Case 1: Login with Valid Credentials
-- Test Case 2: Login with Invalid Password
-- Test Case 3: Login with Invalid Username and Password
-- Test Case 4: Login with Empty Credentials
+- [ ] Log out 
+    - [ ] successfully from different starting points (product page, cart, checkout)
+    - [ ] Verify log out stage (e.g., redirect to login page)
+    - [ ] invalid username and password
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+[//]: # (* extra: Handle edge cases &#40;e.g., already logged out, logout during product/cart interaction&#41;)
+
+[//]: # (* extra: Simulate network issues or errors during logout)
+
+- [ ] List available products
+    - [ ] Verify product information accuracy (e.g., name, price, image).
+    - [ ] Display product list correctly with various data sets (e.g., empty list, single product, multiple products)
+
+- [ ] View product on its own page
+    - [ ] Click on a product and verify it opens on a separate page
+    - [ ] Verify product details accuracy (e.g., name, description, price, attributes)
+    - [ ] Check Add to cart button
+- [ ] Add products to cart
+    - [ ] Add single and multiple products to the cart successfully
+    - [ ] Verify cart updates (e.g., item count, total price) after each addition
+
+- [ ] Check out
+    - [ ] Navigate to the checkout page
+    - [ ] Verify the checkout process and completion
 
 ## User Stories
 User stories to be addressed during the project:
@@ -67,6 +90,7 @@ The project's goal is to validate website functionalities through provided tests
 #### Additional Resources:
 
 Robot Framework documentation: https://robotframework.org/
+
 Swag Labs website: https://www.saucedemo.com/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
