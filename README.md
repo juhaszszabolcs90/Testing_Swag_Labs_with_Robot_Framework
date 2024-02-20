@@ -9,7 +9,8 @@ To clone and run the project, the following tools and software are needed:
 
 - Integrated Development Environment (IDE) (e.g., PyCharm, VS Code)
 - Python 3.x version
-- Robot Framework (Install using ```pip install robotframework```)
+- Robot Framework
+To install Robot Framework in Ubuntu use the following command: ```pip install robotframework```
 
 ## Running Tests:
 
@@ -22,12 +23,12 @@ To run just the tests in a specific file, navigate to the root directory as befo
 ## Files
 The project includes the following files:
 
-- log.html: Log file for test execution.
-- report.html: Report file for test results.
+- `log.html`: Log file for test execution.
+- `report.html`: Report file for test results.
 These files help track changes for learning purposes. Typically, they are not uploaded unless as part of a Continuous Integration/Continuous Deployment (CI/CD) process, like to an AWS bucket.
 
 ### Tests
-I've created the following test cases to validate the login process:
+There are the following test cases to validate the login process:
 
 - Test Case 1: Login with Valid Credentials
 - Test Case 2: Login with Invalid Password
