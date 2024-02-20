@@ -9,7 +9,7 @@ This project uses Robot Framework to automate testing of the Swag Labs website. 
 
 * [![Python][Python-image]][Python-url]
 
-* [![Robot-Framework][Robot-Framework-image]][Robot-Framework-url] width="200"
+* [![Robot-Framework][Robot-Framework-image]]([Robot-Framework-url] width="200")
 
 * [![Selenium][Selenium.img]][Selenium-url]
 
