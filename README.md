@@ -51,7 +51,6 @@ Testing:
 - [ ] Log out 
     - [ ] successfully from different starting points (product page, cart, checkout)
     - [ ] Verify log out stage (e.g., redirect to login page)
-    - [ ] invalid username and password
 
 [//]: # (* extra: Handle edge cases &#40;e.g., already logged out, logout during product/cart interaction&#41;)
 
