@@ -10,15 +10,26 @@ To clone and run the project, the following tools and software are needed:
 - Integrated Development Environment (IDE) (e.g., PyCharm, VS Code)
 - Python 3.x version
 - Robot Framework
-To install Robot Framework in Ubuntu use the following command: ```$ pip install robotframework```
+To install Robot Framework in Ubuntu use the following command: 
+```sh
+pip install robotframework
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Running Tests:
 
 To run the tests, navigate to the project's root directory and enter the following command in the command line:
-```$ robot Tests```
+```sh
+robot Tests
+```
 
 To run just the tests in a specific file, navigate to the root directory as before.
-```$ robot Tests/login.robot```
+```sh
+ robot Tests/login.robot
+ ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Files
 The project includes the following files:
@@ -27,6 +38,8 @@ The project includes the following files:
 - `report.html`: Report file for test results.
 These files help track changes for learning purposes. Typically, they are not uploaded unless as part of a Continuous Integration/Continuous Deployment (CI/CD) process, like to an AWS bucket.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Tests
 There are the following test cases to validate the login process:
 
@@ -34,6 +47,8 @@ There are the following test cases to validate the login process:
 - Test Case 2: Login with Invalid Password
 - Test Case 3: Login with Invalid Username and Password
 - Test Case 4: Login with Empty Credentials
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## User Stories
 User stories to be addressed during the project:
@@ -47,7 +62,11 @@ User stories to be addressed during the project:
 
 The project's goal is to validate website functionalities through provided tests.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 #### Additional Resources:
 
 Robot Framework documentation: https://robotframework.org/
 Swag Labs website: https://www.saucedemo.com/
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
