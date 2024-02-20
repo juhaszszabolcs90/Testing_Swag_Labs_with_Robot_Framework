@@ -10,15 +10,15 @@ To clone and run the project, the following tools and software are needed:
 - Integrated Development Environment (IDE) (e.g., PyCharm, VS Code)
 - Python 3.x version
 - Robot Framework
-To install Robot Framework in Ubuntu use the following command: ```pip install robotframework```
+To install Robot Framework in Ubuntu use the following command: ```$ pip install robotframework```
 
 ## Running Tests:
 
 To run the tests, navigate to the project's root directory and enter the following command in the command line:
-```robot Tests```
+```$ robot Tests```
 
 To run just the tests in a specific file, navigate to the root directory as before.
-```robot Tests/login.robot```
+```$ robot Tests/login.robot```
 
 ## Files
 The project includes the following files:
