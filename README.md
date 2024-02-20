@@ -9,7 +9,7 @@ This project uses Robot Framework to automate testing of the Swag Labs website. 
 
 * [![Python][Python-image]][Python-url]
 
-* [![Robot-Framework][Robot-Framework-image]][Robot-Framework-url] class="robot-framework-logo"
+* [![Robot-Framework][Robot-Framework-image]][Robot-Framework-url] width="200"
 
 * [![Selenium][Selenium.img]][Selenium-url]
 
@@ -113,9 +113,3 @@ Swag Labs website: https://www.saucedemo.com/
 [Robot-Framework-url]:https://robotframework.org/
 [Selenium.img]:https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white
 [Selenium-url]:https://www.selenium.dev/
-
-<style>
-img {
-  width: 100px;
-}
-</style>
